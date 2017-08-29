@@ -46,7 +46,7 @@ php app/console restapi:generate-attendees
   - app/config/config.yml
   - src/AppBundle/Entity/Attendee.php
   - src/AppBundle/Repository/AttendeeRepository.php
-- Attendees dump in: http://example.com/attendees
+- Attendees dump in: http://ezrestapi.websc/attendees
 
 --
 
@@ -160,7 +160,7 @@ class AttendeeList extends ValueObjectVisitor
  - Voilà! Our entities via eZ REST framework:
 ```
 curl -X GET \
-  http://localhost:8000/api/ezp/v2/attendees \
+  http://ezrestapi.websc/api/ezp/v2/attendees \
   -H 'accept: application/vnd.ez.api.Attendee+json'
 ```
  
@@ -226,7 +226,7 @@ git checkout janit-3
 composer update
 ```
  
- - After this you can hit GraphiQL client at:<br >http://example.com:8000/graphiql
+ - After this you can hit GraphiQL client at:<br >http://ezrestapi.websc/graphiql
 
 --
 
@@ -448,7 +448,7 @@ overblog_graphql:
         graphiql: 0.11
 ```
 
- - GraphiQL: http://example.com/graphiql/attendees
+ - GraphiQL: http://ezrestapi.websc/graphiql/attendees
 
 --
 
