@@ -40,13 +40,23 @@
 
 ```
 git checkout janit-1
+composer update
+php app/console doctrine:schema:update --force
 php app/console restapi:generate-attendees
 ```
+
 - Includes some configuration and code:
   - app/config/config.yml
   - src/AppBundle/Entity/Attendee.php
   - src/AppBundle/Repository/AttendeeRepository.php
 - Attendees dump in: http://ezrestapi.websc/attendees
+
+--
+
+### Install Postman
+
+ - Install Postman
+ - https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop
 
 --
 
@@ -184,6 +194,13 @@ curl -X GET \
    - Reads are "Queries"
    - Writes are "Mutations"
    - Caching tricky, requires new techniques
+
+--
+
+### GraphQL hands on with GitHub 
+
+ - GitHub APIs are available as GraphQL
+ - https://developer.github.com/v4/explorer/
 
 --
 
