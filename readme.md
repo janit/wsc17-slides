@@ -4,11 +4,20 @@
 
 ---
 
+## http://janit.iki.fi/ez-rest-graphql
+
+---
+
+
 ## Agenda
 
  - Doctrine ORM as a backend for eZ Platform REST
  - Using GraphQL with eZ Platform
  - Extending GraphQL with a Doctrine endpoint
+
+---
+
+## https://janit.iki.fi/ez-rest-graphql/
 
 ---
 
