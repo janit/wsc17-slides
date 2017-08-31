@@ -57,6 +57,8 @@ php app/console restapi:generate-attendees
 
  - Install Postman
  - https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop
+ - http://ezrestapi.websc/api/ezp/v2/attendees
+   - accept: application/vnd.ez.api.Attendee+json
 
 --
 
