@@ -10,8 +10,17 @@
 		<link rel="stylesheet" href="./reveal.js/css/theme/white.css" id="theme">
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="./reveal.js/lib/css/zenburn.css">
-    <!-- Add some transparent background to slide to make it more readable despite bg image -->
-    <link rel="stylesheet" href="css/style.css">
+	    <!-- Add some transparent background to slide to make it more readable despite bg image -->
+		<link rel="stylesheet" href="css/style.css">
+		
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
 	</head>
 	<body>
 
