@@ -401,9 +401,9 @@ composer update
 
 --
 
-### Update the GraphQL bundle
+### Update the GraphQL bundle (optional)
 
- - I want new features from the latest GraphQL Bundle
+ - OPTIONAL: Upgrade to my fork with latest GraphQL Bundle
  - Update the bundle to use my fork via Composer.json:
 
 ```
@@ -540,6 +540,20 @@ class AttendeeResolver implements ResolverInterface {
 
 --
 
+### Register resolver as a service
+
+ - app/config/services.yml:
+
+```
+app.graphql.attendee:
+    class: AppBundle\GraphQL\Resolver\AttendeeResolver
+    arguments: ['@doctrine.orm.default_entity_manager']
+    tags:
+        - { name: overblog_graphql.resolver, method: resolve, alias: 'Attendee' }
+```
+
+--
+
 ### Fetching Individuals
 
  - Fetching individual attendees
@@ -656,6 +670,20 @@ class AttendeeListResolver implements ResolverInterface {
 ```
 
  - The limit argument is not used, but it is available in <b>$args</b>
+
+--
+
+### Register resolver as service
+
+- app/config/services.yml:
+
+```
+app.graphql.attendee_list:
+        class: AppBundle\GraphQL\Resolver\AttendeeListResolver
+        arguments: ['@doctrine.orm.default_entity_manager']
+        tags:
+            - { name: overblog_graphql.resolver, method: resolve, alias: 'AttendeeList' }
+```
 
 --
 
