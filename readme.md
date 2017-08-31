@@ -205,7 +205,7 @@ curl -X GET \
    - Not verbs (GET, POST, PATCH...) like in REST
    - Reads are "Queries"
    - Writes are "Mutations"
-   - Caching tricky, requires new techniques
+ - Caching tricky, requires new techniques
 
 --
 
