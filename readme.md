@@ -1,4 +1,4 @@
-# Doctrine ORM with eZ Platform REST<br />+intro to GraphQL
+# Doctrine ORM with eZ Platform REST framework<br />(and GraphQL)
 
 <center><small>Jani Tarvainen, September 1st 2017</small></center>
 
