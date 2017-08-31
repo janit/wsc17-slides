@@ -218,6 +218,7 @@ curl -X GET \
   }
 }
 ```
+
 --
 
 ### eZ Platform and GraphQL
