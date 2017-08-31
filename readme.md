@@ -17,10 +17,6 @@
 
 ---
 
-## https://janit.iki.fi/ez-rest-graphql/
-
----
-
 ## Doctrine ORM as a backend<br/>for eZ Platform REST
 
 --
