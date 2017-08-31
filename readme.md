@@ -705,6 +705,15 @@ app.graphql.attendee_list:
 git checkout janit-5
 ```
 
+--
+
+### More GraphQL resources
+
+ - https://symfony.fi/entry/graphql-with-php-and-the-symfony-framework
+ - https://www.symfony.fi/entry/what-is-graphql-and-how-does-it-differ-from-rest-apis
+ - http://graphql.org/graphql-js/
+ - https://github.com/Youshido/GraphQLBundle/
+
 ---
 
 ## The end
