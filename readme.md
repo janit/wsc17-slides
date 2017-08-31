@@ -395,7 +395,7 @@ composer update
  - We can extend the GraphQL backend with new queries
  - You can add a separate endpoint or extend the eZ one
    - For the sake of argument, we'll add a new one
-   - http://example.com/graphiql/attendee
+   - http://ezrestapi.websc/graphiql/attendee
  - Extend the Overblog bundle with configuration+code
  - Overblog GraphQLBundle: https://github.com/overblog/GraphQLBundle
 
