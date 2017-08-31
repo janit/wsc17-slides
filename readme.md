@@ -41,9 +41,11 @@
 
 ### Prebuilt and configured Entities
 
+- Enable dev in /etc/apache2/sites-available/ezrestapi.conf
 - Entities and fixtures are in place
 
 ```
+git pull
 git checkout janit-1
 composer update
 php app/console doctrine:schema:update --force
