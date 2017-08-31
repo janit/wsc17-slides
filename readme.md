@@ -193,7 +193,7 @@ curl -X GET \
 
  - An alternative approach to REST
    - A complete specification, http://graphql.org
- - GraphQL is a query language (+ client/server implementation)
+ - GraphQL is a query language (+ client/server impl)
    - The syntax looks like JSON without data, just the keys
  - Often demoed with a <a href="https://github.com/graphql/graphiql">GraphiQL</a> client app
  - Strongly typed - provides some novel features
