@@ -69,7 +69,7 @@ php app/console restapi:generate-attendees
 
 --
 
-### Extend controller
+### Extend controller with new route
 
 - src/AppBundle/Controller/AttendeesController.php
 
@@ -118,6 +118,12 @@ class AttendeeList
         $this->attendees = $attendees;
     }
 }
+```
+
+ - Also add namespace to Controller
+
+```
+use AppBundle\Rest\values\AttendeeList;
 ```
 
 --
